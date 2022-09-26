@@ -41,7 +41,7 @@ module GoogleIDToken
   class Validator
     include MonitorMixin
 
-    GOOGLE_CERTS_URI = 'https://www.googleapis.com/oauth2/v1/certs'
+    GOOGLE_CERTS_URI = 'https://www.googleapis.com/oauth2/v3/certs'
     GOOGLE_CERTS_EXPIRY = 3600 # 1 hour
 
     # https://developers.google.com/identity/sign-in/web/backend-auth
